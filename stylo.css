@@ -1,0 +1,128 @@
+@font-face {
+    font-family: GR;
+    src: url('gr font.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: lemon milk;
+    src: url('milk.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: RGB(8, 57, 133);
+    color: white;
+}
+
+#bnn {
+    font-size: 25px;
+    color: RGB(247, 186, 10);
+    font-family: GR;
+    font-style: normal;
+    line-height: 1, 5cm;
+}
+
+li,
+a,
+button {
+    font-size: 20px;
+    color: RGB(247, 186, 10);
+    text-decoration: none;
+    font-family: lemon milk;
+}
+
+.sobre {
+    font-size: 20px;
+    text-align: center;
+    color: RGB(247, 186, 10);
+    text-decoration: none;
+    font-family: lemon milk;
+}
+
+p {
+    margin: 0;
+    text-indent: 3ch;
+}
+
+#direitos {
+    font-size: 12px;
+    text-align: center;
+    color: RGB(247, 186, 10);
+    text-decoration: none;
+    font-family: lemon milk;
+
+}
+
+#sobretexto {
+    color: aliceblue;
+    text-indent: 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgb(4, 4, 104);
+}
+
+.nv {
+    list-style: none;
+}
+
+.nv li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nv li a:hover {
+    color: beige;
+}
+
+button {
+    background-color: rgb(7, 7, 124);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+}
+
+#bt2 {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+.gallery {
+    width: 100%;
+}
+
+.gallery .image {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+}
